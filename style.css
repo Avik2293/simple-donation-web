@@ -1,7 +1,7 @@
 body{
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    margin: 0%;
+    margin: 0;
 }
 #first-part{
     background-image: url(images/donation6.jpg);
@@ -10,6 +10,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    opacity: 0.7;
 }
 h1{
     font-size: 70px;
