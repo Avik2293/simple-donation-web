@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin: 0%;
+}
+
+#first-part{
+    background-image: url(images/donation6.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+
+h1{
+    font-size: 70px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 5px;
+}
+h2{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 30px;
+    padding: 20px 40px;
+}
+p{
+    font-size: 20px;
+    padding: 10px 250px;
+    
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(pink, red);
+    padding: 10px 25px;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    
+}
+#second-part{
+    margin: 70px 5px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 60px;
+    margin-left: 300px;
+}
+#highlight{
+    background-color: pink;
+    color: red;
+    border-radius: 5px;
+    border: 2px solid red;
+}
+#underline{
+    border-bottom: 2px solid rgb(204, 190, 190);
+    color: gray;
+    margin-left: 300px;
+    margin-right: 280px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
