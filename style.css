@@ -3,7 +3,6 @@ body{
     font-family: 'Oswald', sans-serif;
     margin: 0%;
 }
-
 #first-part{
     background-image: url(images/donation6.jpg);
     height: 100%;
@@ -11,9 +10,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    
 }
-
 h1{
     font-size: 70px;
     padding-left: 300px;
@@ -33,9 +30,7 @@ h3{
 p{
     font-size: 20px;
     padding: 10px 250px;
-    
 }
-
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(pink, red);
@@ -44,7 +39,6 @@ p{
     font-size: 25px;
     font-weight: 500;
     border-radius: 5px;
-    
 }
 #second-part{
     margin: 70px 5px;
@@ -67,4 +61,71 @@ p{
     margin-right: 280px;
     margin-top: 0;
     margin-bottom: 30px;
+}
+.special-flexible{
+    display: flex;
+    text-align: left;
+    margin: 40px 150px;
+    border-radius: 10px;
+}
+h4{
+    text-align: left;
+    font-size: 30px;
+    padding: 1px 15px;
+}
+.special-para{
+    text-align: left;
+    color: gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#first-bg-color{
+    background-color: rgb(250, 223, 228);
+    border: 10px solid white;
+    padding: 10px 10px;
+}
+#second-bg-color{
+    background-color: rgb(230, 190, 203);
+    border: 10px solid white;
+    padding: 10px 10px;
+}
+#third-bg-color{
+    background-color: rgb(183, 183, 192);
+    border: 10px solid white;
+    padding: 10px 10px;
+}
+#child-flex{
+    display: flex;
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border: 3px solid gray;
+}
+#email-flex{
+    display: flex;
+}
+#email{
+    background-color: rgb(192, 191, 191);
+    text-align: left;
+    border-radius: 10px;
+    padding: -150px -150px;
+}
+#subscribe{
+    text-align: center;
+    margin-top: 25px;
+}
+#both{
+    background-color: bisque;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 80px;
+    margin-top: 140px;
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+footer{
+    background-color: black;
+    color: blueviolet;
 }
